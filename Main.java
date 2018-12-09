@@ -12,7 +12,7 @@ public class Main {
         int a = 1;
         int b = 1;
         int c = 1;
-        System.out.print("First 10 Square Numbers: ");
+        System.out.print("First " + total + " Square Numbers: ");
         while (c <= total) {
             b = a * a;
             System.out.print(b + " ");
@@ -26,7 +26,7 @@ public class Main {
         int a = 1;
         int b = 1;
         int c = 1;
-        System.out.print("\nFirst 10 Cube Numbers: ");
+        System.out.print("\nFirst " + total + " Cube Numbers: ");
         while (c <= total) {
             b = a * a * a;
             System.out.print(b + " ");
@@ -40,7 +40,7 @@ public class Main {
         int b = 1;
         int c = 0;
         int d = 1;
-        System.out.print("\nFirst 10 Fibonacci Numbers: ");
+        System.out.print("\nFirst " + total + " Fibonacci Numbers: ");
         while (d <= total) {
             c = a + b;
             a = b;
@@ -56,7 +56,7 @@ public class Main {
         boolean end = false;
         int test = 2;
         int howmanyprimesugot = 0;
-        System.out.print("\nFirst 10 Prime Numbers: ");
+        System.out.print("\nFirst " + total + " Prime Numbers: ");
         while (howmanyprimesugot < total) {
            //this loop increments the "test" to make the amount of primes go up
            increment = 2;
@@ -91,7 +91,7 @@ public class Main {
         int a = 1;
         int b = 0;
         int c = 1;
-        System.out.print("\nFirst 10 Triangle Numbers: ");
+        System.out.print("\nFirst " + total + " Triangle Numbers: ");
         while (c <= total) {
             b = (a * (a + 1)) / 2;
             System.out.print(b + " ");
